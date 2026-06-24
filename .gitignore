@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files (Python runtime clutter)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm internal configuration folder (keeps your local IDE settings private)
+.idea/
+
+# Local Virtual Environments (if you use local envs instead of global conda)
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and large weights (Crucial for Deep Learning)
+# If you create folders named 'data', 'datasets', or 'models', Git will ignore them
+data/
+datasets/
+*.mat
+*.npy
+*.npz
+
+# Model weights / checkpoints (often massive files)
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Operating system files
+Thumbs.db
+.DS_Store
